@@ -4,34 +4,40 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.center {
-  padding-left: calc(50% - 600px);
-  padding-right: calc(50% - 600px);
-}
-
-.main {
-  height: 1024px;
+main {
   background-image: url(image/Rectangle\ 1.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  padding-top: 217px;
+  background-size: 100% 1024px;
+  background-color: #000915;
 }
-.main__title {
+
+.container {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.content {
+  height: 1024px;
+}
+
+.main-content {
+  padding-top: 216px;
+}
+.main-content__title {
   color: white;
   font-weight: 700;
   font-size: 64px;
 }
-.main__text {
+.main-content__text {
   color: white;
   font-weight: 400;
   font-size: 18px;
-  width: 481px;
+  width: 480px;
   line-height: 32px;
   padding-top: 32px;
   padding-bottom: 44px;
 }
-.main__button {
+.main-content__button {
   background: #9C0332;
   border: 1px solid #9C0332;
   box-sizing: border-box;
@@ -43,15 +49,15 @@
   line-height: 22px;
   color: white;
 }
-.main__button:hover {
+.main-content__button:hover {
   background: #EB443F;
   border: 1px solid #EB443F;
   cursor: url(image/cursor.svg), auto;
 }
 
-.menu {
-  background-color: #000915;
-  height: 556px;
+.game-card {
+  padding-top: 128px;
+  padding-bottom: 128px;
   display: flex;
   align-items: center;
   align-content: stretch;
@@ -59,19 +65,19 @@
   flex-wrap: wrap;
   gap: 32px;
 }
-.menu__game {
+.game-card__game {
   height: 300px;
   display: flex;
 }
-.menu__link {
+.game-card__link {
   position: relative;
 }
-.menu__link:hover {
+.game-card__link:hover {
   cursor: url(image/cursor.svg), auto;
   outline: 3px solid #44D2FF;
   border-radius: 16px;
 }
-.menu__text {
+.game-card__text {
   position: absolute;
   bottom: 32px;
   left: 32px;
@@ -79,4 +85,39 @@
   font-weight: 600;
   line-height: 32px;
   font-size: 24px;
+}
+
+@media (max-width: 376px) {
+  main {
+    background-image: url(image/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: auto 735px;
+    background-position-x: 31%;
+    background-color: #000915;
+  }
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .content {
+    height: 736px;
+  }
+  .main-content {
+    padding-top: 239px;
+    width: 343px;
+    text-align: center;
+  }
+  .main-content__title {
+    font-size: 32px;
+  }
+  .main-content__text {
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    padding-bottom: 32px;
+  }
+  .game-card img {
+    width: 343px;
+    height: 300px;
+  }
 }/*# sourceMappingURL=style.css.map */
