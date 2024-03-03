@@ -3,17 +3,21 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
-.center{
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
-}
-.main{
-    height: 1024px;
+main{
     background-image: url(image/Rectangle\ 1.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding-top: 217px;
+    background-size: 100% 1024px;
+    background-color: #000915;
+}
+.container{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.content{
+    height: 1024px;
+}
+.main-content{
+    padding-top: 216px;
     &__title{
         color: white;
         font-weight: 700;
@@ -23,7 +27,7 @@
         color: white;
         font-weight: 400;
         font-size: 18px;
-        width: 481px;
+        width: 480px;
         line-height: 32px;
         padding-top: 32px;
         padding-bottom: 44px;
@@ -45,11 +49,10 @@
         cursor: url(image/cursor.svg), auto ;
         }
     }
-
 }
-.menu{
-    background-color: #000915;
-    height: 556px;
+.game-card{
+    padding-top: 128px;
+    padding-bottom: 128px;
     display: flex;
     align-items: center;
     align-content: stretch;
@@ -78,3 +81,4 @@
     font-size: 24px;
 }
 }
+@import '_mobi';

@@ -1,0 +1,35 @@
+@media (max-width: 376px){
+    main{
+        background-image: url(image/Rectangle\ 1.png);
+        background-repeat: no-repeat;
+        background-size: auto 735px;
+        background-position-x: 31%;
+        background-color: #000915;
+    }
+    .container{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .content{
+        height: 736px;
+    }
+    .main-content {
+    padding-top: 239px;
+    width: 343px;
+    text-align: center;
+    
+&__title{
+    font-size: 32px;
+}    
+&__text{
+    font-size: 14px;
+    line-height: 22px;
+    width: 343px;
+    padding-bottom: 32px;
+}
+}
+.game-card img{
+width: 343px;
+height: 300px;
+}
+}
