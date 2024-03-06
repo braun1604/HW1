@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.main {
+  height: 1024px;
+  background-image: url(image/Rectangle\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 217px;
+}
+.main__title {
+  color: white;
+  font-weight: 700;
+  font-size: 64px;
+}
+.main__text {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  width: 481px;
+  line-height: 32px;
+  padding-top: 32px;
+  padding-bottom: 44px;
+}
+.main__button {
+  background: #9C0332;
+  border: 1px solid #9C0332;
+  box-sizing: border-box;
+  border-radius: 30px;
+  width: 234px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+}
+.main__button:hover {
+  background: #EB443F;
+  border: 1px solid #EB443F;
+  cursor: url(image/cursor.svg), auto;
+}
+
+.menu {
+  background-color: #000915;
+  height: 556px;
+  display: flex;
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.menu__game {
+  height: 300px;
+  display: flex;
+}
+.menu__link {
+  position: relative;
+}
+.menu__link:hover {
+  cursor: url(image/cursor.svg), auto;
+  outline: 3px solid #44D2FF;
+  border-radius: 16px;
+}
+.menu__text {
+  position: absolute;
+  bottom: 32px;
+  left: 32px;
+  color: white;
+  font-weight: 600;
+  line-height: 32px;
+  font-size: 24px;
+}/*# sourceMappingURL=style.css.map */
