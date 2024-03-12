@@ -66,11 +66,11 @@ if (!isNaN(Number(userInput))) {
 }
 
 // Задание 8 (дополнительно)
-let clientOS; 
-if (clientOS == 1) {
+let clientOs; 
+if (clientOs == 1) {
     alert ('Установите версию приложения для Android по ссылке.')
 }
-    else if (clientOS == 0) {
+    else if (clientOs == 0) {
         alert ('Установите версию приложения для iOS по ссылке.')
     } else {
         alert('Ошибка.')
