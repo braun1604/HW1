@@ -32,4 +32,93 @@
 width: 343px;
 height: 300px;
 }
+.game-1{
+    height: 654px;
+    display: flex;
+    gap: 0;
+    flex-wrap: wrap;
+    &__description{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    &__name{
+        font-weight: 700;
+        font-size: 32px;
+    }
+    &__text{
+        display: none;
+    }
+    &__textMobile{
+        display: flex;
+        font-weight: 400;
+        font-size: 14px;
+        width: 343px;
+        line-height: 22px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        color:white; 
+    }
+    &__image{
+        width: 344px;
+        height: 236px;
+    }
 }
+.game-2{
+    height: 654px;
+    display: flex;
+    gap: 0;
+    flex-wrap: wrap;
+    &__description{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    &__name{
+        font-weight: 700;
+        font-size: 32px;
+    }
+    &__text{
+        display: flex;
+        font-weight: 400;
+        font-size: 14px;
+        width: 343px;
+        line-height: 22px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        color:white;
+    }
+    &__image{
+        width: 344px;
+        height: 236px;
+    }
+}
+.game-3{
+    display: flex;
+    gap: 0;
+    flex-wrap: wrap;
+    &__description{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding-top: 51px;
+    }
+    &__name{
+        font-weight: 700;
+        font-size: 32px;
+    }
+    &__text{
+        display: flex;
+        font-weight: 400;
+        font-size: 14px;
+        width: 343px;
+        line-height: 22px;
+        padding-bottom: 32px;
+        color:white;
+    }
+}
+}
+
