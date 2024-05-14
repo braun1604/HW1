@@ -49,31 +49,31 @@ console.log(sortArr);
  console.log(line);
 
   //Задание 9
-  const task9 = [[1, 2, 3], [4, 5, 6]];
-  const job9 = task9.flat();
-  console.log(job9);
+  const flatArray = [[1, 2, 3], [4, 5, 6]];
+  const nestedArray = flatArray.flat();
+  console.log(nestedArray);
 
  //Задание 10
- const task10 = [8, 7, 6, 9, 10, 1, 2, 3, 4, 5];
- for (let i = 0; i < task10.length - 1; i++) {
-console.log(task10[i] + task10[i + 1]);
+ const randomArray = [8, 7, 6, 9, 10, 1, 2, 3, 4, 5];
+ for (let i = 0; i < randomArray.length - 1; i++) {
+console.log(randomArray[i] + randomArray[i + 1]);
  }
 
  //Задание 11
-function task11(arr) {
+function funcArray(arr) {
     return arr.map(num => num * num);
 }
 
 //Задание 12
-function task12(array) {
+function arrayLine(array) {
     return array.map(el => el.length);
 }
 
 //Задание 13
-function task13(array) {
+function negArray(array) {
     return array.filter(value => value < 0);
 }
-console.log(task13([ -1, 3, 0, -100]));
+console.log(negArray([ -1, 3, 0, -100]));
 
 //Задание 14
   const generateArray = [];
@@ -86,9 +86,9 @@ console.log(filt);
 
 //Задание 15
 const generateArrays = [];
-for (let i = 0; i < 6; i++) {
- const min = 1;
+const min = 1;
  const max = 10;
+for (let i = 0; i < 6; i++) {
   generateArrays.push(Math.floor(Math.random() * (max - min + 1)) + min);
 };
 console.log(generateArrays);
